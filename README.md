@@ -45,20 +45,20 @@ This ensures full reproducibility and professional-level security testing.
 ---
 
 ##  Repository Structure
-Week1_Research/ → Research, explanations, and slide materials
-Week2_Config/ → FortiGate profiles, policies, screenshots
-Week3_Testing/ → Attack simulations, logs, evidence
-Week4_Final/ → Final documentation + presentation
+- Week1_Research/ → Research, explanations, and slide materials
+- Week2_Config/ → FortiGate profiles, policies, screenshots
+- Week3_Testing/ → Attack simulations, logs, evidence
+- Week4_Final/ → Final documentation + presentation
 configs/ → Exported FortiGate configuration files
 
 ---
 
 ##  Final Deliverables
-- ✔ Full **60-slide professional presentation**  
-- ✔ Complete **technical documentation**  
-- ✔ All **test results, logs, screenshots**  
-- ✔ The **FortiGate configuration backup** used in the project  
-- ✔ GitHub repository containing every step of the work
+-  Full **60-slide professional presentation**  
+-  Complete **technical documentation**  
+-  All **test results, logs, screenshots**  
+-  The **FortiGate configuration backup** used in the project  
+-  GitHub repository containing every step of the work
 
 ---
 
