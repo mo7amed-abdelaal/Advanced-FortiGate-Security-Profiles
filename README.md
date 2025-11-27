@@ -1,22 +1,81 @@
-# Advanced FortiGate Security Profiles
+#  Advanced FortiGate Security Profiles – Full Project
 
-##  Project Overview
-This project focuses on configuring and testing advanced FortiGate security profiles 
-(antivirus, web filtering, IPS, and application control) to defend against real-world cyberattacks.  
-It includes both configuration and attack simulations, demonstrating FortiGate’s effectiveness 
-from both offensive and defensive perspectives.
+This project focuses on implementing, configuring, and testing **advanced FortiGate Security Profiles** within a virtual lab environment.  
+The goal is to demonstrate real-world defensive capabilities against malware, phishing, unauthorized applications, and network-level attacks — using professional cybersecurity practices.
 
-## Weekly Deliverables
-- **Week 1:** Research on security profiles and their importance.
-- **Week 2:** Configuration of antivirus, IPS, web filtering, and application control.
-- **Week 3:** Attack simulations (malware, phishing, port scanning, unauthorized apps) and monitoring.
-- **Week 4:** Final report and presentation with results.
+---
 
-## Repository Structure
-- `Week1_Research/` – Research docs & slides  
-- `Week2_Config/` – Configurations & screenshots  
-- `Week3_Testing/` – Test results & reports  
-- `Week4_Final/` – Final compiled report & presentation  
+##  Project Scope
+The project covers the full lifecycle of FortiGate protection mechanisms, including:
 
-## 👨‍💻 Team Lead
-- Mohamed Abdelaal Saad
+- **Antivirus (AV)**
+- **Web Filtering**
+- **Application Control**
+- **IPS (Intrusion Prevention System)**
+- **DNS Filtering**
+- **SSL/Deep Inspection**
+
+Each profile was configured, tested, monitored, and validated using controlled attack simulations.
+
+---
+
+##  Lab Environment
+All configurations and tests were performed inside **FortiGate 7.6 Labs** using:
+
+- **FortiGate VM**
+- **Windows 10 Client**
+- **Kali Linux Attacker**
+- **Simulated Internet Environment**
+
+This ensures full reproducibility and professional-level security testing.
+
+---
+
+##  Key Technical Achievements
+- Configured full FortiGate security stack (AV, Web Filter, IPS, App Control, DNS Filter).
+- Enabled flow-based and proxy-based inspection modes with SSL Deep Inspection.
+- Simulated and analyzed:
+  - Malware download using EICAR test file  
+  - Web filtering blocks and overrides  
+  - Application Control + bandwidth shaping  
+  - IPS detections (port scans, suspicious patterns, botnet C2 signatures)
+- Collected logs, screenshots, and monitoring insights from FortiGate GUI.
+- Built a complete technical report and a 30-slide presentation explaining configurations and results.
+
+---
+
+##  Repository Structure
+Week1_Research/ → Research, explanations, and slide materials
+Week2_Config/ → FortiGate profiles, policies, screenshots
+Week3_Testing/ → Attack simulations, logs, evidence
+Week4_Final/ → Final documentation + presentation
+configs/ → Exported FortiGate configuration files
+
+---
+
+##  Final Deliverables
+- ✔ Full **60-slide professional presentation**  
+- ✔ Complete **technical documentation**  
+- ✔ All **test results, logs, screenshots**  
+- ✔ The **FortiGate configuration backup** used in the project  
+- ✔ GitHub repository containing every step of the work
+
+---
+
+##  Team Lead
+**Mohamed Abdelaal Saad**  
+Project Manager • Security Engineer • Responsible for architecture, documentation, testing, and final delivery.
+
+---
+
+##  How to Use
+Clone the repo:
+
+Open the final documents and presentation and go with steps also you can use the firewall conf file.
+
+---
+
+##  Notes
+This project demonstrates practical, real-world cybersecurity skills using enterprise-grade Fortinet technology.  
+It is suitable for showcasing security configuration, analysis, and threat mitigation abilities.
+
